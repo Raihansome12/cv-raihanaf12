@@ -1,0 +1,39 @@
+.jumbotron {
+    padding-top: 10rem;
+    margin-top: -5rem;
+    background-color: #FEC260;
+}
+
+.ic {
+    margin-right: 5px;
+}
+
+#gallery,
+#contact {
+    background-color: #FEC260;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* remove horizontal scroll */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.paragraph {
+    width: 150%;
+}
